@@ -61,8 +61,8 @@ function userValidate() {
 }
 
 // These are my new variables to store the audio files.
-let socialMediaBrainAudio = new Audio('C:\\Users\\benja\\OneDrive\\Desktop\\old-car-engine_daniel_simion.mp3');
-let noSocialMediaBrainAudio = new Audio('C:\\Users\\benja\\OneDrive\\Desktop\\muscle-car-daniel_simon.mp3');
+let socialMediaBrainAudio = new Audio('old-car-engine_daniel_simion.mp3');
+let noSocialMediaBrainAudio = new Audio('muscle-car-daniel_simon.mp3');
 
 // This is my function to play "Your Brain ON Social Media" audio file.
 function socialMediaBrain() {
