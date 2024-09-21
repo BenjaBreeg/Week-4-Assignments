@@ -1,0 +1,62 @@
+<!-- Benja Guzzetta -->
+
+<!-- My document type and language for the page. -->
+<!DOCTYPE html>
+<html lang="en">
+    <!-- Beginning of the head tag. -->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- My title for the page. -->
+    <title>Benja's Palindrome Checker</title>
+    <!-- The link to my CSS file for styling the page. -->
+    <link rel="stylesheet" href="strings.css">
+    <!-- End of the head tag. -->
+</head>
+<!-- Beginning of the body tag. -->
+<body>
+    <!-- The h1 tag, displayed at the top of the page. -->
+    <h1>Welcome to Benja's Palindrome Checker, Mystery Box & Sound Center!!</h1>
+    <!-- Paragraph tag with text in it. -->
+    <p>Enter a Word Below to See if it's a Palindrome!</p>
+    <!-- Input field and button for user interaction. -->
+    <input type="text" id="userInput" placeholder="Enter a Word" />
+    <button onclick="checkPalindrome()">Check</button>
+    <!-- Div tag, to display the result of the JS function. -->
+    <div id="result"></div>
+
+    <!-- A meme just for this occasion. -->
+    <img src="C:\Users\benja\OneDrive\Desktop\Strings\palindrome_img.jpeg" alt="Palindrome definition and Skeletor laughing" style="margin-top: 20px;">
+
+    <!-- This is the user input form for first and last name, and zip code. -->
+     <p>The Mystery Box!</p>
+
+     <p>Enter Your Info Below to See a Secret message!</p>
+    <!-- First name input field. -->
+    <input type="text" id="firstName" placeholder="Enter Your First Name" />
+    <!-- Last name input field. -->
+    <input type="text" id="lastName" placeholder="Enter Your Last Name" />
+    <!-- Zip code input field. -->
+    <input type="text" id="zipCode" placeholder="Enter Your Zip Code" />
+    <!-- The button to validate the user input and display the secret message. -->
+    <button onclick="userValidate()">Submit</button>
+    <!-- A div tag to display the secret message if the user's inputs are valid. -->
+    <div id="secretMessage"></div>
+
+    <!-- The new div tag for images to act as buttons to activate the sounds. -->
+    <div id="brain-section">
+        <!-- A paragraph tag for the text above the first image button with a break to stack text. -->
+        <p>Your Brain ON Social Media. <br> (Click Image for Sound.)</p>
+        <!-- An image tag that acts as a button for "Your Brain on Social Media" with the link to the image. -->
+        <img src="C:\Users\benja\OneDrive\Desktop\Strings\brainOnSocialMediaMeme.jpg" alt="Brain on Social Media" class="brain-image" onclick="socialMediaBrain()">
+        <!-- A paragraph tag for the text above the second image button also with a break to stack text. -->
+        <p>Your Brain OFF Social Media. <br> (Click Image for Sound.)</p>
+        <!-- Another image tag that acts as a button for "Your Brain off Social Media" with the link to image. -->
+        <img src="C:\Users\benja\OneDrive\Desktop\Strings\brainOffSocialMediaMeme.avif" alt="Brain off Social Media" class="brain-image" onclick="noSocialMediaBrain()">
+        <!-- The end of my div tag for the new section. -->
+    </div>
+    <!-- A script tag to link my JavaScript file to the page, so the palindrome function works when the page is run. -->
+    <script src="strings.js"></script>
+    <!-- Ends of body and html tags. -->
+</body>
+</html>
